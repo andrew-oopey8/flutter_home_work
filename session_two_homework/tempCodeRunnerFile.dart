@@ -1,1 +1,0 @@
-with values 50 and 30 respectively.
