@@ -3,7 +3,7 @@
 
 import 'dart:io';
 
-import 'my_functions.dart';
+import 'my_functions1.dart';
 
 void main() {
   print("Enter the first number:");
@@ -35,49 +35,30 @@ void main() {
 }
 
 
+
+
+
+
 // حل تاني
 
 // import 'dart:io';
 
+// import 'my_functions2.dart';
+
 // void main() {
-//   double num1;
-//   double num2;
-//   print('Enter Two numbers');
-//   num1 = double.parse(stdin.readLineSync()!);
-//   num2 = double.parse(stdin.readLineSync()!);
-//   print('1.Addition\n2.Subtraction\n3.Multiplication\n4.Division');
-//   int choice = int.parse(stdin.readLineSync()!);
-//   switch (choice) {
-//     case 1:
-//       print('Addition of $num1 and $num2 is ${add(num1, num2)}');
-//       break;
-//     case 2:
-//       print('Subtraction of $num1 and $num2 is ${subtract(num1, num2)}');
-//       break;
-//     case 3:
-//       print('Multiplication of $num1 and $num2 is ${multiply(num1, num2)}');
-//       break;
-//     case 4:
-//       print('Division of $num1 and $num2 is ${divide(num1, num2)}');
-//       break;
-//     default:
-//       print('Invalid choice');
-//   }
-// }
+//   print("Enter first number:");
+//   double num1 = double.parse(stdin.readLineSync()!);
 
-// // Define a function to add two numbers
-// double add(double num1, double num2) {
-//   return num1 + num2;
-// }
+//   print("Enter second number:");
+//   double num2 = double.parse(stdin.readLineSync()!);
 
-// double subtract(double num1, double num2) {
-//   return num1 - num2;
-// }
+//   print("Addition result: ${add(num1, num2)}");
+//   print("Subtraction result: ${subtract(num1, num2)}");
+//   print("Multiplication result: ${multiply(num1, num2)}");
+//   print("Division result: ${divide(num1, num2)}");
 
-// double multiply(double num1, double num2) {
-//   return num1 * num2;
-// }
-
-// double divide(double num1, double num2) {
-//   return num1 / num2;
+//   // Optional: Test addition with three numbers
+//   print("Enter a third number for optional addition:");
+//   double num3 = double.parse(stdin.readLineSync()!);
+//   print("Addition with three numbers result: ${add(num1, num2, num3)}");
 // }

@@ -20,7 +20,7 @@ class GroceryList {
       if (items.remove(item)) {
         removedCount++;
       } else {
-        break; 
+        break;
       }
     }
     return "Removed '$item' $removedCount time(s) from the grocery list.";

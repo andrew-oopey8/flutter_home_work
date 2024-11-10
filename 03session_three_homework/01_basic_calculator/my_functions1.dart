@@ -17,9 +17,9 @@ double multiply(double num1, double num2) {
 }
 
 double divide(double num1, double num2) {
-  if (num2 == 0) {
-    print("Cannot divide by zero.");
-    return double.nan;
-  }
+  // if (num2 == 0) {
+  //   print("Cannot divide by zero.");
+  //   return double.nan;
+  // }
   return num1 / num2;
 }

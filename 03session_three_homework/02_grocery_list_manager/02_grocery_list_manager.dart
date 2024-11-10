@@ -7,13 +7,12 @@ import 'dart:io';
 
 import 'my_grocery_class.dart';
 
-
 void main() {
   GroceryList groceryList = GroceryList();
   String? input;
 
   while (true) {
-    print("\nChoose an option:");
+    print("Choose an option:");
     print("1. Add an item");
     print("2. Remove an item");
     print("3. Display items");
@@ -56,5 +55,5 @@ void main() {
     }
   }
 
-  print("Exiting the program. Goodbye!");
+  print("Goodbye!");
 }
