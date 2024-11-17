@@ -5,7 +5,7 @@
 
 import 'dart:io';
 
-import 'my_grocery_class.dart';
+import '02_my_grocery_class.dart';
 
 void main() {
   GroceryList groceryList = GroceryList();

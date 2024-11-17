@@ -2,7 +2,7 @@
 
 import 'dart:io';
 
-import 'my_weather_class.dart';
+import '04_my_weather_class.dart';
 
 void main() {
   WeatherApp weatherApp = WeatherApp();

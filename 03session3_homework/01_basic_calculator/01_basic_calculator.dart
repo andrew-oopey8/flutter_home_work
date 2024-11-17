@@ -3,7 +3,7 @@
 
 import 'dart:io';
 
-import 'my_functions1.dart';
+import '01_my_functions1.dart';
 
 void main() {
   print("Enter the first number:");
