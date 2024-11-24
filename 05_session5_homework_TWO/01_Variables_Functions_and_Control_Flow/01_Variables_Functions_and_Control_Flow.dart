@@ -25,5 +25,5 @@ void main() {
     print("Not Prime");
   }
 
-  print("Factorial of $number is ${factorial(number.toInt())}");
+  print("Factorial of ${number.toInt()} is ${factorial(number.toInt())}");
 }
