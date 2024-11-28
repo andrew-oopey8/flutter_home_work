@@ -6,6 +6,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       backgroundColor: const Color(0xFFE6F7FF), // Light blue background
       body: Center(
         child: Padding(
@@ -66,11 +67,11 @@ class MyHomePage extends StatelessWidget {
                         ),
                         ClipRRect(
                           borderRadius: BorderRadius.circular(12.0),
-                          child: Image.network(
-                            'https://via.placeholder.com/80',
-                            height: 80,
-                            width: 80,
-                            fit: BoxFit.cover,
+                          child: Image.asset(
+                            'images/me.jpg',
+                            height: 120,
+                            width: 100,
+                            fit: BoxFit.fill,
                           ),
                         ),
                       ],
